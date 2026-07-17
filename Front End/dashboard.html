@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard | Student Course Management</title>
+<link rel="stylesheet" href="dashboard.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+<div class="logo">Course Management</div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="courses.html">Courses</a></li>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="progress.html">Progress</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="register.html">Register</a></li>
+</ul>
+</nav>
+
+<section class="dashboard-header">
+<div>
+<h1>Welcome back, Aditi 👋</h1>
+<p>Here's an overview of your learning activity.</p>
+</div>
+<a href="courses.html" class="btn">Browse Courses</a>
+</section>
+
+<section class="stats-grid">
+
+<div class="stat-card">
+<div class="stat-icon">📚</div>
+<div>
+<h2>6</h2>
+<p>Total Courses Enrolled</p>
+</div>
+</div>
+
+<div class="stat-card">
+<div class="stat-icon">✅</div>
+<div>
+<h2>3</h2>
+<p>Courses Completed</p>
+</div>
+</div>
+
+<div class="stat-card">
+<div class="stat-icon">🕐</div>
+<div>
+<h2>3</h2>
+<p>Ongoing Courses</p>
+</div>
+</div>
+
+<div class="stat-card">
+<div class="stat-icon">📊</div>
+<div>
+<h2>74%</h2>
+<p>Average Progress</p>
+</div>
+</div>
+
+</section>
+
+<section class="dashboard-body">
+
+<div class="panel enrolled-panel">
+<h3>My Enrolled Courses</h3>
+
+<div class="course-row">
+<div class="course-info">
+<h4>Full Stack Development</h4>
+<p>4 of 6 modules completed</p>
+</div>
+<div class="progress-track">
+<div class="progress-fill" style="width:66%;"></div>
+</div>
+<span class="progress-percent">66%</span>
+</div>
+
+<div class="course-row">
+<div class="course-info">
+<h4>Python for Beginners</h4>
+<p>4 of 4 modules completed</p>
+</div>
+<div class="progress-track">
+<div class="progress-fill" style="width:100%;"></div>
+</div>
+<span class="progress-percent">100%</span>
+</div>
+
+<div class="course-row">
+<div class="course-info">
+<h4>Artificial Intelligence Basics</h4>
+<p>3 of 5 modules completed</p>
+</div>
+<div class="progress-track">
+<div class="progress-fill" style="width:60%;"></div>
+</div>
+<span class="progress-percent">60%</span>
+</div>
+
+<div class="course-row">
+<div class="course-info">
+<h4>Data Structures &amp; Algorithms</h4>
+<p>2 of 6 modules completed</p>
+</div>
+<div class="progress-track">
+<div class="progress-fill" style="width:33%;"></div>
+</div>
+<span class="progress-percent">33%</span>
+</div>
+
+</div>
+
+<div class="panel notifications-panel">
+<h3>Notifications</h3>
+
+<div class="notif-item">
+<span class="notif-dot"></span>
+<div>
+<p class="notif-title">New module unlocked</p>
+<p class="notif-sub">React Basics is now available in Full Stack Development.</p>
+</div>
+</div>
+
+<div class="notif-item">
+<span class="notif-dot"></span>
+<div>
+<p class="notif-title">Certificate ready</p>
+<p class="notif-sub">Your Python for Beginners certificate is ready to download.</p>
+</div>
+</div>
+
+<div class="notif-item">
+<span class="notif-dot"></span>
+<div>
+<p class="notif-title">Assignment reminder</p>
+<p class="notif-sub">AI Basics assignment due in 3 days.</p>
+</div>
+</div>
+
+<div class="notif-item">
+<span class="notif-dot"></span>
+<div>
+<p class="notif-title">Enrollment confirmed</p>
+<p class="notif-sub">You're enrolled in Data Structures &amp; Algorithms.</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Student Course Management System | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
