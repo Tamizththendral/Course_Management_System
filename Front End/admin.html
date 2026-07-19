@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard | Student Course Management</title>
+<link rel="stylesheet" href="admin.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="admin-layout">
+
+<aside class="sidebar">
+<div class="logo">Course Management</div>
+<p class="sidebar-label">ADMIN PANEL</p>
+<ul class="sidebar-nav">
+<li class="active"><a href="admin.html">📊 Dashboard</a></li>
+<li><a href="#">📚 Manage Courses</a></li>
+<li><a href="#">🧑‍🎓 Manage Students</a></li>
+<li><a href="#">📝 Enrollments</a></li>
+<li><a href="#">📈 Reports</a></li>
+<li><a href="index.html">🏠 Back to Site</a></li>
+</ul>
+<a href="login.html" class="logout-link">↩ Logout</a>
+</aside>
+
+<main class="admin-main">
+
+<header class="admin-header">
+<div>
+<h1>Admin Dashboard</h1>
+<p>Overview of students, courses and enrollment activity.</p>
+</div>
+<div class="admin-profile">
+<div class="avatar">A</div>
+<span>Admin</span>
+</div>
+</header>
+
+<section class="admin-stats">
+<div class="admin-stat-card">
+<div class="stat-icon">🧑‍🎓</div>
+<div><h2>248</h2><p>Total Students</p></div>
+</div>
+<div class="admin-stat-card">
+<div class="stat-icon">📚</div>
+<div><h2>32</h2><p>Total Courses</p></div>
+</div>
+<div class="admin-stat-card">
+<div class="stat-icon">📝</div>
+<div><h2>561</h2><p>Active Enrollments</p></div>
+</div>
+<div class="admin-stat-card">
+<div class="stat-icon">✅</div>
+<div><h2>78%</h2><p>Avg. Completion Rate</p></div>
+</div>
+</section>
+
+<section class="admin-panel">
+<div class="panel-header">
+<h3>Manage Courses</h3>
+<button class="btn">+ Add Course</button>
+</div>
+
+<table class="admin-table">
+<thead>
+<tr>
+<th>Course Name</th>
+<th>Instructor</th>
+<th>Category</th>
+<th>Duration</th>
+<th>Enrolled</th>
+<th>Actions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full Stack Development</td>
+<td>Sarah Mitchell</td>
+<td><span class="badge">Web Development</span></td>
+<td>12 Weeks</td>
+<td>118</td>
+<td class="actions"><a href="#" class="edit-link">Edit</a><a href="#" class="delete-link">Delete</a></td>
+</tr>
+<tr>
+<td>Artificial Intelligence Basics</td>
+<td>Daniel Reyes</td>
+<td><span class="badge">AI</span></td>
+<td>8 Weeks</td>
+<td>96</td>
+<td class="actions"><a href="#" class="edit-link">Edit</a><a href="#" class="delete-link">Delete</a></td>
+</tr>
+<tr>
+<td>Python for Beginners</td>
+<td>Emily Chen</td>
+<td><span class="badge">Python</span></td>
+<td>6 Weeks</td>
+<td>142</td>
+<td class="actions"><a href="#" class="edit-link">Edit</a><a href="#" class="delete-link">Delete</a></td>
+</tr>
+<tr>
+<td>Java Programming</td>
+<td>Michael Torres</td>
+<td><span class="badge">Java</span></td>
+<td>10 Weeks</td>
+<td>73</td>
+<td
