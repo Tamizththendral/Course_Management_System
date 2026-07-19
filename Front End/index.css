@@ -6,6 +6,7 @@ a{text-decoration:none;color:inherit;}
 nav{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;background:#FFFFFF;border-bottom:1px solid #E2E6F0;position:sticky;top:0;z-index:100;}
 .logo{font-size:22px;font-weight:600;color:#0F172A;}
 nav ul{list-style:none;display:flex;gap:34px;}
+nav ul{list-style:none;display:flex;gap:28px;flex-wrap:wrap;}
 nav ul li a{font-size:15px;font-weight:500;color:#3F4A5E;transition:color .25s;position:relative;}
 nav ul li a::after{content:'';position:absolute;left:0;bottom:-6px;width:0;height:2px;background:#2547D0;transition:width .25s;}
 nav ul li a:hover{color:#2547D0;}
